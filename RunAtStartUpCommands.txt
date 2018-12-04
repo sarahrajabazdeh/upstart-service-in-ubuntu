@@ -1,0 +1,9 @@
+sudo nano /etc/systemd/system/startupservice.service
+sudo chmod 777 /etc/systemd/system/startupservice.service
+sudo systemctl daemon-reload
+ sudo systemctl enable startupservice.service
+sudo reboot
+sudo systemctl status 
+
+
+

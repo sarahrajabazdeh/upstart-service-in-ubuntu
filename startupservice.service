@@ -1,0 +1,17 @@
+
+[Unit]
+Description= my voip
+After=syslog.target network.target multi-user.target
+Requires=asterisk.service
+
+[Service]
+User=root
+ExecStart=/home/sama/Desktop/voiphone/close.sh
+
+[Install]
+WantedBy=default.target
+
+
+
+
+
